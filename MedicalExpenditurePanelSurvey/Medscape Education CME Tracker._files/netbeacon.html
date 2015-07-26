@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0105)http://img.webmd.com/medscape/netbeacon.html?domain=webmd.com&guid=1582931&usp=84&pf=10&ct=us&occ=0&st=ny -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title></title>
+</head>
+<body>
+<script type="text/javascript">
+var domain = "webmd.com";
+
+var url = document.location.href;
+params = url.substring(url.indexOf("?")+1).split("&");
+
+var expDate=new Date();
+expDate.setYear(expDate.getFullYear() + 10);
+var cVal="", domain="";
+for(var i=0;i<params.length;i++)
+{
+	keyPair = params[i].split("=");
+	if(keyPair[0]=="domain")domain=keyPair[1];
+	else
+		cVal+="ck_" + keyPair[0] + "_" + keyPair[1];
+	cVal+="_";
+}
+cVal+="x";
+document.cookie = "as_01=" + cVal + "; path=/; domain=" + domain + ";expires=" + expDate.toGMTString();
+</script>
+
+</body></html>

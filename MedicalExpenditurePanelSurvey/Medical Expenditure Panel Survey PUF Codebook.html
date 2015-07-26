@@ -1,0 +1,568 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0100)http://meps.ahrq.gov/mepsweb/data_stats/download_data_files_codebook.jsp?PUFId=H160E&varName=ERTC13X -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+	  <meta name="description" content="The Medical Expenditure Panel Survey is a set of large-scale surveys of families and individuals, their medical providers, and employers across the United States.">
+    <meta name="created" content="1/1/2006">
+    <meta name="reviewed" content="8/1/2006">
+    <meta name="author" content="Agency for Healthcare Research and Quality">
+    <meta http-equiv="Content-Language" content="en-us">
+    
+
+
+
+
+
+
+<title>Medical Expenditure Panel Survey PUF Codebook</title>
+
+<link href="./Medical Expenditure Panel Survey PUF Codebook_files/meps_style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./Medical Expenditure Panel Survey PUF Codebook_files/menu_roll.js"></script>
+
+<script language="JavaScript">
+  function ClearNonPopupLinks() {  
+   /*Replaces the href of all links to self + printer=yes to popup to Javascript:void(0) disabling them */
+     for(var i=0;i<document.links.length;i++) {  
+      if ((document.links[i].href.indexOf("/mepsweb/data_stats/download_data_files_codebook.jsp") >= 0) && (document.links[i].href.indexOf("prfricon=yes") >= 0)) { 
+        document.links[i].href="javascript:void(0)"; 
+        document.links[i].target="";}}}   
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="./Medical Expenditure Panel Survey PUF Codebook_files/foresee-surveydef.js"></script></head>
+
+<body onload="MM_preloadImages(&#39;/mepsweb/newLayout/subheader_04_23_07/index_r2_c2_f2.jpg&#39;,&#39;/mepsweb/newLayout/subheader_04_23_07/index_r2_c3_f2.jpg&#39;,&#39;/mepsweb/newLayout/subheader_04_23_07/index_r2_c4_f2.jpg&#39;,&#39;/mepsweb/newLayout/subheader_04_23_07/index_r2_c5_f2.jpg&#39;)" style="font-size: 75%;"><!--[if gte IE 5]><![if lt IE 7]>
+	<style type="text/css">
+		#HeaderContainer{width:expression(document.body.clientWidth < 910? "910px": "auto" );}
+	</style>
+	<![endif]><![endif]-->
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+<link href="./Medical Expenditure Panel Survey PUF Codebook_files/ahrq_banner.css" rel="stylesheet" type="text/css">
+<link href="./Medical Expenditure Panel Survey PUF Codebook_files/ahrq_banner_print.css" rel="stylesheet" type="text/css" media="print">
+<link href="./Medical Expenditure Panel Survey PUF Codebook_files/font_size.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./Medical Expenditure Panel Survey PUF Codebook_files/font_size1.js"></script>
+
+    <meta http-equiv="Cache-Control" content="no-store,no-cache">
+    <script type="text/javascript" src="./Medical Expenditure Panel Survey PUF Codebook_files/foresee-trigger.js"></script>
+    
+
+
+
+    <div id="ahrqbanner">
+        <div class="hhsportion">
+            <a href="http://meps.ahrq.gov/mepsweb/data_stats/download_data_files_codebook.jsp?PUFId=H160E&varName=ERTC13X#page_start" class="skipnav">Skip Navigation</a>
+            <img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25">
+            <a href="http://www.hhs.gov/" title="U.S. Department of Health and Human Services"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/hhs_banner.gif" alt="U.S. Department of Health and Human Services"></a>
+            <img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25">
+            <a href="http://www.hhs.gov/" title="www.hhs.gov" class="hhsright"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/hhs_link.gif" alt="www.hhs.gov" width="127" height="41"></a>
+            <img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25">
+        </div>
+        <div class="ahrqportion">
+            <a href="http://www.ahrq.gov/" title="Agency for Healthcare Research Quality"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/ahrq_banner.gif" alt="Agency for Healthcare Research Quality"></a>
+        <form name="searchForm" method="post" action="http://meps.ahrq.gov/mepsweb/ahrq_header_search_validator.jsp" id="banner_searchform">
+          <input type="hidden" name="entqr" value="0">
+          <input type="hidden" name="output" value="xml_no_dtd">
+          <input type="hidden" name="proxystylesheet" value="AHRQ_GOV">
+          <input type="hidden" name="client" value="AHRQ_GOV">
+          <input type="hidden" name="site" value="default_collection">
+	        <input name="search" type="text" value="Search AHRQ" size="11" class="gotext" id="search" onfocus="if(this.value==&#39;Search AHRQ&#39;)this.value=&#39;&#39;" title="search AHRQ">
+	        <input src="./Medical Expenditure Panel Survey PUF Codebook_files/topbn_gobutton.gif" class="gobtn" name="Submit" type="image" alt="Go">
+        </form>
+
+            <a href="http://www.ahrq.gov/" class="ahrqright"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/ahrq_wwwahrqgov.gif" alt="www.ahrq.gov" width="121" height="17"></a>
+            <img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25">
+        </div>
+        <div class="ahrqlinks"><a href="http://www.ahrq.gov/">AHRQ Home</a> | <a href="https://info.ahrq.gov/cgi-bin/ahrq.cfg/php/enduser/std_alp.php">Questions?</a> | <a href="http://www.ahrq.gov/info/customer.htm">Contact Us</a> | <a href="http://www.ahrq.gov/sitemap.htm">Site Map</a> | <a href="http://www.ahrq.gov/whatsnew.htm">What's New</a> | <a href="http://www.ahrq.gov/browse/">Browse</a> | <a href="http://www.ahrq.gov/consumer/espanoix.htm">Información en español</a> | <a href="https://subscriptions.ahrq.gov/service/multi_subscribe.html?code=USAHRQ"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/envelope1.jpg" alt="E-mail Updates"></a><img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="0" height="0">&nbsp;&nbsp;<a href="https://subscriptions.ahrq.gov/service/multi_subscribe.html?code=USAHRQ">E-mail Updates</a></div>
+    </div>
+    <div id="PrintBanner"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/PrintBanner.gif" alt="www.ahrq.gov" width="100%"></div>
+
+    <table summary="header" width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td><img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25"></td>
+      </tr>
+    </tbody></table>
+    <table summary="header" width="820" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="115" rowspan="2">
+	        <a href="http://meps.ahrq.gov/mepsweb/index.jsp"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/meps_logo.jpg" alt="MEPS Home" name="index_r1_c1" width="115" height="54" border="0" id="index_r1_c1"></a>       
+        </td>
+        <td colspan="5"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/index_r1_c2.jpg" alt="Medical Expenditure Panel Survey" name="index_r1_c2" width="585" height="30" border="0" id="index_r1_c2"></td>
+        <td width="115" class="font_size_caption">
+        <div id="displayYesNo1" class="displayYes">            
+			Font Size:
+		</div>                                                     
+        </td>
+      </tr>
+      <tr>
+        <td width="105" bgcolor="#ffffff" valign="top"><a href="http://meps.ahrq.gov/mepsweb/communication/contact.jsp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image11&#39;,&#39;&#39;,&#39;/mepsweb/newLayout/subheader_04_23_07/index_r2_c3.jpg&#39;,1)"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/index_r2_c3_f2.jpg" alt="Contact MEPS" name="Image11" width="105" height="24" border="0"></a><img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25"></td>
+        <td width="72" bgcolor="#ffffff" valign="top"><a href="http://meps.ahrq.gov/mepsweb/about_meps/faq_results.jsp?ChooseTopic=All+Categories&keyword=&Submit2=Search" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image10&#39;,&#39;&#39;,&#39;/mepsweb/newLayout/subheader_04_23_07/index_r2_c2_f2.jpg&#39;,1)"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/index_r2_c2.jpg" alt="FAQ" name="Image10" width="72" height="24" border="0"></a><img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25"></td>
+        <!--<td width="60" bgcolor="#ffffff" valign="top"><a href="/mepsweb/about_meps/spanish.jsp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','/mepsweb/newLayout/subheader_04_23_07/index_r2_c4_f2.jpg',1)"><img src="/mepsweb/newLayout/subheader_04_23_07/index_r2_c4.jpg" alt="Espanol" name="Image12" width="60" height="24" border="0"></a><img src="/mepsweb/images/bullets/spacer.gif" alt=" " width="1" height="25" /></td> -->
+        <td width="112" bgcolor="#ffffff" valign="top"><a href="http://meps.ahrq.gov/mepsweb/sitemap.jsp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image13&#39;,&#39;&#39;,&#39;/mepsweb/newLayout/subheader_04_23_07/index_r2_c5_f2.jpg&#39;,1)"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/index_r2_c5.jpg" alt="Site Map" name="Image13" width="112" height="24" border="0"></a><img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="0" height="0"></td>        
+		<td width="75" valign="top">&nbsp;</td>
+
+        <form name="MEPSSearchForm" method="get" action="http://gsa.meps.s-3.net/search?"></form>
+                <td width="222" valign="top">
+                <label style="display: none;" for="gsa_search">Search MEPS</label>
+                <input name="q" type="text" class="searchField" value="Search MEPS" id="gsa_search" onfocus="if(this.value==&#39;Search MEPS&#39;)this.value=&#39;&#39;">
+                <input type="hidden" name="site" value="MEPS_PROD">
+                <input type="hidden" name="client" value="meps_prod">
+                <input type="hidden" name="filter" value="0">
+                <input type="hidden" name="output" value="xml_no_dtd">
+                <input type="hidden" name="proxystylesheet" value="meps_prod">
+                <input name="btnG" type="submit" class="searchButton" value="Go">
+                </td>
+        
+
+        <td width="115">
+        <div id="displayYesNo2" class="displayYes"></div>    
+        <div id="sfs_div" class="font_size">
+        <a id="sfs_alink" href="javascript:setFontSize('S');">S</a>
+        <img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25">
+        </div>
+
+        <div id="mfs_div" class="font_size_sel">
+        <a id="mfs_alink" href="javascript:setFontSize('M');">M</a>
+        <img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25">
+        </div>		 
+		        
+        <div id="lfs_div" class="font_size">
+        <a id="lfs_alink" href="javascript:setFontSize('L');">L</a>
+        <img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25">
+        </div>		        
+        
+        <div id="xfs_div" class="font_size">
+        <a id="xfs_alink" href="javascript:setFontSize('X');">XL</a>
+        <img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25">
+        </div>
+
+        </td>
+      </tr>
+    </tbody></table>
+    <table summary="header" width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td><img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="10"></td>
+      </tr>
+    </tbody></table>
+  
+	<script type="text/javascript" src="./Medical Expenditure Panel Survey PUF Codebook_files/font_size2.js"></script>
+	
+
+
+<table summary="layout" width="765" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr valign="top" bgcolor="#FFFFFF">
+    <td height="0%" colspan="4" class="sectionDividerGrey" scope="col">
+      
+
+<script type="text/javascript" src="./Medical Expenditure Panel Survey PUF Codebook_files/header_roll.js"></script>
+<table summary="layout" width="765" border="0" align="center" cellpadding="0" cellspacing="0">
+     <tbody><tr>
+       <td width="157" scope="col"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt="spacer" width="1" height="15"></td>
+       
+
+     <td width="614" valign="middle" scope="col"><div align="left"> &gt;  <a class="topNav" href="http://meps.ahrq.gov/mepsweb/survey_comp/household.jsp">Household</a> &gt;  <a class="topNav" href="http://meps.ahrq.gov/mepsweb/survey_comp/survey.jsp">Survey Search</a> &gt;  <a class="topNav" href="http://meps.ahrq.gov/mepsweb/survey_comp/survey_results_ques_sections.jsp?Section=All&Year1=2013&Submit1=Search">Questionnaire Sections</a> &gt;  <a class="topNav" href="http://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp">Download Data Files</a> &gt;  <a class="topNav" href="http://meps.ahrq.gov/mepsweb/data_stats/download_data_files_results.jsp?cboDataYear=All&cboDataTypeY=205%2CEmergency+Room+Visits&buttonYearandDataType=Search">PUF Search Results</a> &gt;  <a class="topNav" href="http://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160E">PUF Data Details</a> &gt;  <span class="small"> Codebook</span></div></td>
+     </tr>
+
+</tbody></table>
+
+    </td>
+
+  </tr>
+  <tr>
+
+    <td width="153" align="left" valign="top" bgcolor="#FFEEC0" class="rightBorder">
+    	<noscript>The components in this navigation bar are fully operational with or without the use of JavaScript</noscript>
+
+
+<table summary="layout" width="154" height="0" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody><tr valign="bottom" bgcolor="#073EA2">
+    <td width="153" height="23" valign="middle" bgcolor="#F3F7FC" class="sectionDividerGreySolidThick">
+    <div align="left" class="navHeader"><strong>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/" class="HomeNav">MEPS Home</a></strong></div></td>
+    
+  </tr>
+  <tr valign="bottom" bgcolor="#073EA2">
+    <td width="153" height="23" valign="middle" bgcolor="#FDDC8D" class="sectionDividerGreySolidThick"><div align="left" class="navHeader"><strong>&nbsp;About<a name="skipnav" id="skipnav"></a> MEPS <strong class="navdivider"></strong></strong></div></td>
+  </tr>
+  
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/about_meps/survey_back.jsp" class="LeftNav">Survey Background</a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/about_meps/workshops_events.jsp" class="LeftNav">Workshops &amp; Events</a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/about_meps/releaseschedule.jsp" class="LeftNav">Data Release Schedule</a></td>
+  </tr>
+
+
+
+
+  
+  <tr valign="bottom" bgcolor="#073EA2">
+    <td width="153" height="23" valign="middle" bgcolor="#FDDC8D" class="sectionDividerGreySolidThick"><div align="left" class="navHeader"><strong>&nbsp;Survey Components <span class="navdivider"><strong></strong></span></strong></div></td>
+  </tr>
+  
+  
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/survey_comp/household.jsp" class="LeftNav">Household</a> </td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/survey_comp/Insurance.jsp" class="LeftNav">Insurance/Employer</a></td>
+  </tr>
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/survey_comp/mpc.jsp" class="LeftNav">Medical Provider</a></td>
+  </tr>
+
+  
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/survey_comp/survey_questionnaires.jsp" class="LeftNav">Survey Questionnaires</a> </td>
+  </tr>
+
+
+  <tr valign="bottom" bgcolor="#073EA2">
+    <td width="153" height="23" valign="middle" bgcolor="#FDDC8D" class="sectionDividerGreySolidThick">&nbsp;<span class="navHeader">Data and Statistics <strong></strong></span><strong></strong><span class="navHeader"><strong></strong></span></td>
+  </tr>
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/data_stats/data_overview.jsp" class="LeftNav">Data Overview </a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/data_stats/MEPS_topics.jsp" class="LeftNav">MEPS Topics </a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/data_stats/publications.jsp" class="LeftNav">Publications Search</a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/data_stats/quick_tables.jsp" class="LeftNav">Summary Data Tables </a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/data_stats/meps_query.jsp" class="LeftNav">MEPSnet Query Tools</a></td>
+  </tr>
+
+
+ 
+  <tr bgcolor="#FFF9E8">
+    <td width="153" height="20" class="sectionDividerGreySolid" style="background-color:#FFF9E8;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFF9E8&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp" class="LeftNav">Data Files</a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/data_stats/onsite_datacenter.jsp" class="LeftNav">Data
+        Centers</a></td>
+  </tr>
+
+
+  <tr bgcolor="#073EA2">
+    <td width="153" height="23" valign="middle" bgcolor="#FDDC8D" class="sectionDividerGreySolidThick"><span class="navHeader"><strong>&nbsp;Communication </strong></span><span class="navdivider"><strong></strong></span></td>
+  </tr>
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" bgcolor="#FFEEC0" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/communication/whats_new.jsp" class="LeftNav">What's New </a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" class="sectionDividerGreySolid" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/communication/mailinglist.jsp" class="LeftNav">Mailing List</a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" class="sectionDividerGreySolidThick" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/communication/listserv.jsp" class="LeftNav">Discussion Forum</a></td>
+  </tr>
+
+
+
+  <tr bgcolor="#FFEEC0">
+    <td width="153" height="20" class="sectionDividerGreySolidThick" style="background-color:#FFEEC0;color:" onmouseover="NN_td_start(this,&#39;#FFF9E8&#39;,&#39;&#39;,1,0,true,false,1);" onmouseout="NN_td_reset(this,&#39;#FFEEC0&#39;,&#39;&#39;);"><span class="small">&nbsp;</span><span class="style9"><strong><font color="#660000">::</font></strong></span>&nbsp;<a href="http://meps.ahrq.gov/mepsweb/communication/index_survey_participant.jsp" class="LeftNav">Participants' Corner</a></td>
+  </tr>
+
+
+
+
+</tbody></table>
+<p><strong><a href="http://meps.ahrq.gov/mepsweb/index.jsp" class="HomeNav"></a></strong></p>
+
+	<br>    </td> 
+
+	<td width="12" valign="top" bgcolor="#FFFFFF">&nbsp;</td>
+    <td width="584" height="0%" valign="top" bgcolor="#FFFFFF"><table summary="layout" width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+      </table>
+      <a name="page_start" id="page_start">&nbsp;</a>
+    <table summary="layout" width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="60%" class="big">Download Data Files — Codebook</td>
+
+        <td width="40%" height="33"><div align="right" class="sidebarStyle">
+            
+<span><img src="./Medical Expenditure Panel Survey PUF Codebook_files/print.gif" alt="Display page in Printer Friendly Format" width="16" height="18" hspace="0" align="absmiddle">
+       <a class="small" href="http://meps.ahrq.gov/mepsweb/data_stats/download_data_files_codebook.jsp?PUFId=H160E&varName=ERTC13X&prfricon=yes" target="_top">printer-friendly </a></span>
+
+
+
+
+        </div></td>
+
+      </tr>
+      <tr>
+        <td height="1" colspan="2" class="big"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/body_trans.gif" alt="&quot;&quot;" width="582" height="1"></td>
+        </tr>
+    </tbody></table>
+
+            <br>
+      <table summary="layout" width="582" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td height="40" valign="middle" scope="col">
+			  
+
+	  
+      <table width="100%" height="21" border="0" cellpadding="3" cellspacing="0" summary="table navigation">
+
+          <tbody><tr bordercolor="#111111" style="background-color:#FFFFFF;color:">
+            <td width="100%" height="0%"><font class="smallBlack" face="Arial">MEPS HC-160E CODEBOOK</font></td>
+          </tr>
+
+          <tr bordercolor="#111111" style="background-color:#FFFFFF;color:">
+            <td width="100%" height="0%"><font class="smallBlack" face="Arial">2013 EMERGENCY ROOM VISITS</font></td>
+          </tr>
+
+          <tr bordercolor="#111111" style="background-color:#FFFFFF;color:">
+            <td width="100%" height="0%"><font class="smallBlack" face="Arial">DATE:     June 15, 2015</font></td>
+          </tr>
+
+      </tbody></table>
+      <br>
+
+
+	  
+      <table width="100%" height="21" border="0" cellpadding="3" cellspacing="0" summary="table navigation">
+
+          <tbody><tr bordercolor="#111111" style="background-color:#FFFFFF;color:">
+            <td width="18%" height="0%"><font class="smallBlack" face="Arial">Variable Name:</font></td>
+            <td width="82%" height="0%"><font class="smallBlack" face="Arial">ERTC13X</font></td>
+          </tr>
+          <tr bordercolor="#111111" style="background-color:#FFFFFF;color:">
+            <td width="18%" height="0%"><font class="smallBlack" face="Arial">Description:</font></td>
+            <td width="82%" height="0%"><font class="smallBlack" face="Arial">TOTAL CHG FOR EVENT (ERFTC13X+ERDTC13X)</font></td>
+          </tr>
+          <tr bordercolor="#111111" style="background-color:#FFFFFF;color:">
+            <td width="18%" height="0%"><font class="smallBlack" face="Arial">Format:</font></td>
+            <td width="82%" height="0%"><font class="smallBlack" face="Arial">   9.2</font></td>
+          </tr>
+          <tr bordercolor="#111111" style="background-color:#FFFFFF;color:">
+            <td width="18%" height="0%"><font class="smallBlack" face="Arial">Type:</font></td>
+            <td width="82%" height="0%"><font class="smallBlack" face="Arial"> NUM</font></td>
+          </tr>
+          <tr bordercolor="#111111" style="background-color:#FFFFFF;color:">
+            <td width="18%" height="0%"><font class="smallBlack" face="Arial">Start:</font></td>
+            <td width="82%" height="0%"><font class="smallBlack" face="Arial">112</font></td>
+          </tr>
+          <tr bordercolor="#111111" style="background-color:#FFFFFF;color:">
+            <td width="18%" height="0%"><font class="smallBlack" face="Arial">End:</font></td>
+            <td width="82%" height="0%"><font class="smallBlack" face="Arial">120</font></td>
+          </tr>
+
+      </tbody></table>
+      <br>
+
+	  
+      <table width="100%" height="21" border="0" cellpadding="3" cellspacing="0" summary="table navigation">
+        <thead>
+          <tr bgcolor="#EAF4FD">
+            <td width="50%" class="sectionDivider" scope="col"><div align="left" class="navHeader">VALUE</div></td>
+            <td width="19%" class="sectionDivider" scope="col"><div align="right" class="navHeader">UNWEIGHTED</div></td>
+            <td width="31%" class="sectionDivider" scope="col"><div align="right" class="navHeader">WEIGHTED BY PERWT13F</div></td>
+          </tr>
+        </thead>
+        <tbody>
+
+          <!--<tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope=col onMouseOver="NN_td_start(this,'#Fbfbfb','',1,0,false,false,1);" onMouseOut="NN_td_reset(this,'#FFFFFF','');">-->
+          <!--this is the table after click variable name link, romove onMouseOver because there is no link here on this table-->
+          <tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope="col">
+            <td width="50%" height="0%" class="bottomRightgrayBorder" scope="row"><font class="smallBlack" face="Arial">0</font></td>
+            <td width="19%" height="0%" class="bottomRightgrayBorder"><div align="right"><font class="smallBlack" face="Arial">           130</font></div></td>
+             <td width="31%" class="sectionDividerGrey"><div align="right"><font class="smallBlack" face="Arial">     1,265,181</font></div></td>
+          </tr>
+
+          <!--<tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope=col onMouseOver="NN_td_start(this,'#Fbfbfb','',1,0,false,false,1);" onMouseOut="NN_td_reset(this,'#FFFFFF','');">-->
+          <!--this is the table after click variable name link, romove onMouseOver because there is no link here on this table-->
+          <tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope="col">
+            <td width="50%" height="0%" class="bottomRightgrayBorder" scope="row"><font class="smallBlack" face="Arial">$15.44 - $906.11</font></td>
+            <td width="19%" height="0%" class="bottomRightgrayBorder"><div align="right"><font class="smallBlack" face="Arial">         1,845</font></div></td>
+             <td width="31%" class="sectionDividerGrey"><div align="right"><font class="smallBlack" face="Arial">    15,907,987</font></div></td>
+          </tr>
+
+          <!--<tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope=col onMouseOver="NN_td_start(this,'#Fbfbfb','',1,0,false,false,1);" onMouseOut="NN_td_reset(this,'#FFFFFF','');">-->
+          <!--this is the table after click variable name link, romove onMouseOver because there is no link here on this table-->
+          <tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope="col">
+            <td width="50%" height="0%" class="bottomRightgrayBorder" scope="row"><font class="smallBlack" face="Arial">$906.12 - $1,836.39</font></td>
+            <td width="19%" height="0%" class="bottomRightgrayBorder"><div align="right"><font class="smallBlack" face="Arial">         1,845</font></div></td>
+             <td width="31%" class="sectionDividerGrey"><div align="right"><font class="smallBlack" face="Arial">    15,118,891</font></div></td>
+          </tr>
+
+          <!--<tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope=col onMouseOver="NN_td_start(this,'#Fbfbfb','',1,0,false,false,1);" onMouseOut="NN_td_reset(this,'#FFFFFF','');">-->
+          <!--this is the table after click variable name link, romove onMouseOver because there is no link here on this table-->
+          <tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope="col">
+            <td width="50%" height="0%" class="bottomRightgrayBorder" scope="row"><font class="smallBlack" face="Arial">$1,836.40 - $3,645.39</font></td>
+            <td width="19%" height="0%" class="bottomRightgrayBorder"><div align="right"><font class="smallBlack" face="Arial">         1,847</font></div></td>
+             <td width="31%" class="sectionDividerGrey"><div align="right"><font class="smallBlack" face="Arial">    16,123,037</font></div></td>
+          </tr>
+
+          <!--<tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope=col onMouseOver="NN_td_start(this,'#Fbfbfb','',1,0,false,false,1);" onMouseOut="NN_td_reset(this,'#FFFFFF','');">-->
+          <!--this is the table after click variable name link, romove onMouseOver because there is no link here on this table-->
+          <tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope="col">
+            <td width="50%" height="0%" class="bottomRightgrayBorder" scope="row"><font class="smallBlack" face="Arial">$3,645.40 - $178,632.00</font></td>
+            <td width="19%" height="0%" class="bottomRightgrayBorder"><div align="right"><font class="smallBlack" face="Arial">         1,843</font></div></td>
+             <td width="31%" class="sectionDividerGrey"><div align="right"><font class="smallBlack" face="Arial">    15,568,612</font></div></td>
+          </tr>
+
+          <!--<tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope=col onMouseOver="NN_td_start(this,'#Fbfbfb','',1,0,false,false,1);" onMouseOut="NN_td_reset(this,'#FFFFFF','');">-->
+          <!--this is the table after click variable name link, romove onMouseOver because there is no link here on this table-->
+          <tr bordercolor="#111111" id="faqRoll_neoTD3" style="background-color:#FFFFFF;color:" scope="col">
+            <td width="50%" height="0%" class="bottomRightgrayBorder" scope="row"><font class="smallBlack" face="Arial">TOTAL</font></td>
+            <td width="19%" height="0%" class="bottomRightgrayBorder"><div align="right"><font class="smallBlack" face="Arial">         7,510</font></div></td>
+             <td width="31%" class="sectionDividerGrey"><div align="right"><font class="smallBlack" face="Arial">    63,983,709</font></div></td>
+          </tr>
+
+        </tbody>
+      </table>
+      <br><br>
+<a href="http://meps.ahrq.gov/mepsweb/data_stats/download_data_files_codebook.jsp?PUFId=H160E">Return to list of variables</a>
+      <table summary="layout" width="100%" height="0%" border="0" cellpadding="4" cellspacing="0">
+      </table>
+      <br>
+
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+    <td width="16" valign="bottom" bgcolor="#FFFFFF"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/right_gutter_trans.gif" alt="&quot;&quot;" width="16" height="8"></td>
+  </tr>
+</tbody></table><!-- add this code, this is where I fix Linda 8/28/08 email regarding codebook aligned further to the left at the end-->
+  
+
+    <!-- Footer graphic 1.2--><!-- Footer links section -->
+<table width="765" border="0" align="center" cellpadding="0" cellspacing="0" summary="layout table">
+  <tbody><tr>
+    <td colspan="3"><table width="100%" border="0" cellpadding="4" cellspacing="0" summary="layout table">
+      <tbody><tr>
+        <td height="15" bgcolor="#EEEEEE" class="sectionDividerGreyDotted"><div align="right">
+            
+
+          </div></td></tr>
+      <tr>
+        <td height="25" bgcolor="#FBFBFB"><div align="center" class="smallGreen">
+        <a href="http://meps.ahrq.gov/mepsweb/">MEPS HOME</a> . 
+        <a href="http://meps.ahrq.gov/mepsweb/communication/contact.jsp">CONTACT MEPS</a> . 
+        <a href="http://meps.ahrq.gov/mepsweb/about_meps/faq_results.jsp?ChooseTopic=All+Categories&keyword=&Submit2=Search">MEPS FAQ</a> . 
+        <a href="http://meps.ahrq.gov/mepsweb/sitemap.jsp">MEPS SITE MAP</a> . 
+        <a href="http://meps.ahrq.gov/mepsweb/privacy_policy.jsp">MEPS PRIVACY POLICY</a> . 
+        <a href="http://meps.ahrq.gov/mepsweb/accessibility.jsp">ACCESSIBILITY</a> .
+        <a href="http://meps.ahrq.gov/mepsweb/copyright.jsp">COPYRIGHT</a> 
+        </div></td>
+      </tr>
+      <tr>
+        <td height="3" bgcolor="#FFFFFF"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="3"></td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+<div id="ahrq_footer">
+<!-- Footer graphics -->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" summary="layout table"><tbody><tr>
+    <td width="125" class="bkgImg"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/bottom_ahrq_1.jpg" width="125" alt="AHRQ"></td>
+    <td width="100%" class="bkgImg"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/bottom_ahrq_bkg.jpg" width="10" height="34" alt=" "></td>
+    <td width="310" class="bkgImg"><img src="./Medical Expenditure Panel Survey PUF Codebook_files/bottom_ahrq_2.gif" alt="Advancing Excellence in Health Care" width="310" height="34"></td>
+  </tr></tbody></table>
+
+<!-- Footer links section -->
+<div id="banner_Footer2"><p> <a href="http://www.ahrq.gov/">AHRQ  Home</a> | <a href="https://info.ahrq.gov/cgi-bin/ahrq.cfg/php/enduser/std_alp.php" class="footer_navlink">Questions?</a> | <a href="http://www.ahrq.gov/info/customer.htm" class="footer_navlink">Contact AHRQ</a> | <a href="http://www.ahrq.gov/sitemap.htm" class="footer_navlink">Site Map</a> | <a href="http://www.ahrq.gov/accessibility.htm" class="footer_navlink">Accessibility</a> | <a href="http://www.ahrq.gov/news/privacy.htm" class="footer_navlink">Privacy
+ Policy</a> | <a href="http://www.ahrq.gov/news/foia.htm" class="footer_navlink">Freedom of Information Act</a> | <a href="http://www.ahrq.gov/news/disclaim.htm" class="footer_navlink">Disclaimers </a> <img src="./Medical Expenditure Panel Survey PUF Codebook_files/spacer.gif" alt=" " width="1" height="25"><br>
+
+ <a href="http://www.hhs.gov/" class="footer_navlink">U.S. Department of Health &amp; Human Services</a> | <a href="http://www.whitehouse.gov/" class="footer_navlink">The White House</a> | <a href="http://www.usa.gov/" class="footer_navlink">USA.gov: The U.S. Government's Official Web Portal</a></p>
+</div>
+<div id="banner_Footeraddress"><p>Agency for Healthcare Research and Quality <img src="./Medical Expenditure Panel Survey PUF Codebook_files/bottom_dot.gif" alt=" " width="7" height="6"> 540 Gaither Road Rockville, MD 20850 <img src="./Medical Expenditure Panel Survey PUF Codebook_files/bottom_dot.gif" alt=" " width="7" height="6"> Telephone: (301) 427-1364</p>
+</div>
+<!-- End of Footer links section -->
+</div>
+
+
+
+
+  
+  
+    &nbsp;
+  
+
+
+
+</body></html>

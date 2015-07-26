@@ -1,0 +1,285 @@
+/* *** created 11/21/14 RM-NYC *** */
+#headerSpecialty, #topSubNav2, #headertopright, #headerbottom, #learningCenters, #medscapefooter, #cme-date-form, .printCTA, #complete, #incomplete{
+	display:none;
+}
+#useInfo, #in-progress, #completed{
+	display:block !important;
+}
+#edu.oneCol {
+	margin: 5px 0 0 0;
+}
+#edu.tracker {
+	color: #333;
+}
+#edu.tracker p {
+	margin: 0;
+	padding: 0 0 15px 0;
+	font-size: 1.05em;
+}
+#edu.tracker a {
+	color: #0075c9;
+}
+#edu.tracker h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'proxima_nova_ltsemibold', arial, sans-serif;
+	font-size: 1.25em;
+	color: #731a12;
+	display: inline;
+}
+#edu.tracker .bucket {
+	padding: 0 12px;
+}
+#edu.tracker .bucketHeader {
+	margin: 0 0 12px 0;
+}
+#edu.tracker #top {
+	padding: 0 0 12px 0;
+}
+
+/* intro */
+#edu.tracker .intro {
+	width: 595px;
+	float: left;
+}
+#edu.tracker .intro h2 {
+	margin: 0;
+	padding: 10px 0;
+	font-family: 'proxima_nova_rgregular', arial, sans-serif;
+	font-size: 2.8em;
+	text-transform: uppercase;
+	color: #999;
+	border: none;
+}
+#edu.tracker h2 .red {
+	font-family: 'proxima_nova_rgbold', arial, sans-serif;
+	color: #731a12;
+}
+#edu.tracker .intro p {
+	display: none;
+}
+#edu.tracker .intro p.userInfo {
+	display: block;
+	font-size: 1.05em;
+	font-weight: bold;
+}
+
+/* CME credits */
+#edu.tracker #cmeCredits {
+	padding: 0 14px 0 0;
+	text-align: right;
+	width: 325px;
+	float: right;
+}
+#edu.tracker #cmeCredits .credits {
+	padding: 70px 0 0 0;
+	font-family: 'proxima_nova_ltsemibold', arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.7em;
+	color: #731a12;
+}
+#edu.tracker #cmeCredits .credits .creditTotal {
+	padding: 0 0 0 4px;
+	font-size: 3.0em;
+	display: inline-block;
+}
+#edu.tracker #cmeCredits .rxCredits {
+	padding: 0 0 8px 0;
+	font-family: 'proxima_nova_rgregular', arial, sans-serif;
+	font-size: 1.25em;
+	color: #888;
+}
+#edu.tracker #cmeCredits .requirements {
+	display: none;
+}
+
+/* activites scroller */
+#edu.tracker .bucket#activities {
+	display: none;
+}
+
+
+/* tabs */
+#edu.tracker #tabs ul li#incomplete, #edu.tracker #tabs #in-progress {
+	display: none;
+}
+#edu.tracker #tabs ul {
+	margin: 0 0 20px 0;
+	padding: 0;
+	background: url("/pi/cme/tracker//bg-cme-tabs.png") repeat-x bottom;
+	width: 964px;
+	float: left;
+}
+#edu.tracker #tabs li {
+	margin: 0;
+	padding: 0;
+	font-family: 'proxima_nova_rgregular', arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.45em;
+	list-style: none;
+	border:none;
+}
+#edu.tracker #tabs ul li.active {
+	font-family: 'proxima_nova_rgbold', arial, sans-serif;
+	border-bottom: none;
+	background-color: #fff;
+}
+#edu.tracker #tabs li a.tabLink {
+	padding: 12px 0;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+}
+
+/* date select + print */
+#edu.tracker .dateSelectPrint {
+	margin: 0 14px 5px 14px;
+	padding: 0 0 15px 0;
+	background: url("/pi/global/ornaments/border-dots.png") repeat-x bottom left;
+}
+#edu.tracker .dateSelectPrint .selectors {
+	width: 740px;
+	float: left;
+}
+#edu.tracker .dateSelectPrint .changeSelectors {
+	margin: 6px 0 0 0;
+	font-family: 'proxima_nova_ltsemibold', arial, sans-serif;
+	font-size: 1.1em;
+	color: #000;
+	display: inline-block;
+	float: left;
+}
+#edu.tracker .dateSelectPrint .formlabel {
+	display: none;
+}
+#edu.tracker .dateSelectPrint .rangeSelect {
+	display: inline-block;
+}
+#edu.tracker .dateSelectPrint .formfield select {
+	margin: 0 10px 0 0;
+	font-size: 1.2em;
+}
+#edu.tracker .dateSelectPrint .rangeTxt {
+	margin: 0 15px 0 5px;
+	display: inline-block;
+}
+#edu.tracker .dateSelectPrint .changeButton {
+	margin: 2px 20px 0 15px;
+	width: 75px;
+	display: inline-block;
+	float: left;
+}
+#edu.tracker .dateSelectPrint .changeButton input[type="submit"] {
+	padding: 4px 10px;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #bcbcbc;
+    font-family: 'proxima_nova_rgbold', arial, sans-serif;
+	font-size: 1.2em;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+#edu.tracker .dateSelectPrint .changeButton input[type="submit"]:hover {
+	background-color: #797979;
+}
+#edu.tracker .dateSelectPrint .printCTA {
+	display: none;
+}
+
+
+/* activities tables */
+#edu.tracker .bucket#professionalCredits {
+	margin: 15px 0 0 0;
+}
+#edu.tracker .bucket#lettersOfCompletion {
+	margin: 30px 0 0 0;
+}
+#edu.tracker .activityTable {
+	margin: 0 0 15px 0;
+	padding: 0;
+	display: table;
+	border-right: 1px solid #ccc;
+}
+#edu.tracker .activityDataHeader {
+	display: table-header-group;
+}
+#edu.tracker .headerData {
+	padding: 8px 10px;
+	display: table-cell;
+	border-top: 1px solid #ccc;
+	border-bottom: 2px solid #731a12;
+	border-left: 1px solid #ccc;
+	background-color: #eee;
+	font-size: 1.1em;
+	font-weight: bold;
+	white-space: nowrap;
+}
+#edu.tracker .activityRow {
+	display: table-row;
+}
+#edu.tracker .activityData {
+	padding: 8px 10px;
+	display: table-cell;
+	line-height: 1.4em;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+#edu.tracker #completed .headerData.cell1 {
+	width: 15%;
+}
+#edu.tracker #completed .headerData.cell2 {
+	width: 10%;
+}
+#edu.tracker #completed .headerData.cell3 {
+	width: 20%;
+}
+#edu.tracker #completed .headerData.cell4 {
+	width: 15%;
+}
+#edu.tracker #completed .headerData.cell5 {
+	width: 15%;
+}
+#edu.tracker #completed .headerData.cell6 {
+	width: 20%;
+}
+#edu.tracker #completed .headerData.cell7 {
+	width: 5%;
+}
+
+/* CME credits */
+#edu.tracker #totalCredits {
+	padding: 0 14px 15px 0;
+	text-align: right;
+}
+#edu.tracker #totalCredits .credits {
+	padding: 20px 0 0 0;
+	font-family: 'proxima_nova_ltsemibold', arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #731a12;
+}
+#edu.tracker #totalCredits .credits .creditTotal {
+	padding: 0 0 0 8px;
+	font-size: 1.8em;
+	display: inline-block;
+}
+#edu.tracker #totalCredits .rxCredits {
+	font-family: 'proxima_nova_rgregular', arial, sans-serif;
+	font-size: 1.1em;
+	color: #888;
+}
+
+
+/* more info */
+#edu.tracker .bucket#moreInfo .bucketContent {
+	padding: 6px;
+}
